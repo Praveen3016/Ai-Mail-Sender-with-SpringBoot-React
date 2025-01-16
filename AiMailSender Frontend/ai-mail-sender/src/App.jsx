@@ -14,6 +14,7 @@ function App() {
           {/* Define Layout as the parent route */}
           <Route path="/" element={<Layout />}>
             {/* Nested Routes */}
+            
             <Route path="mail-generator" element={<EmailGenerator />} />
             <Route path="gmail" element={<GmailUI />} />
             <Route path="SendEmail" element={<SendEmail />} />
